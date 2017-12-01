@@ -9,7 +9,9 @@ public class Base {
         Scanner in = new Scanner(System.in);
         //Инициализируем сканер
         boolean cycle = true;
-        while (cycle = true){
+        //Инициализируем переменную цикла повторений
+        do {
+            //Начало цикла калькулятора
             System.out.println("First Digit");
             float first = in.nextFloat();
             //Ввод первого после подсказки
@@ -44,16 +46,14 @@ public class Base {
                 System.out.printf("%.4f", result);
                 //Считаем деление
             }
-            System.out.println("For more press y, for Exit any key");
+            System.out.println();
+            System.out.println("For Continue press y, for Exit any key");
             String answer = in.next();
             //Запрос продолжения
             if (!answer.equals("y")){
                 cycle = false;
-                //Инверсия сравнения, 10х Stackoverflow
-                System.out.println(cycle);
-                //Вывод переменной цикла, для отладки
             }
-        }
+        }while (cycle);
         System.out.println("Bye!");
     }
 
