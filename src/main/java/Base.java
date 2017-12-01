@@ -50,9 +50,7 @@ public class Base {
             System.out.println("For Continue press y, for Exit any key");
             String answer = in.next();
             //Запрос продолжения
-            if (!answer.equals("y")){
-                cycle = false;
-            }
+            cycle = (answer.equals("y"));
         }while (cycle);
         System.out.println("Bye!");
     }
