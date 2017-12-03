@@ -8,7 +8,7 @@ public class Base {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         //Инициализируем сканер
-        boolean cycle = true;
+        boolean cycle;
         //Инициализируем переменную цикла повторений
         do {
             //Начало цикла калькулятора
@@ -56,4 +56,4 @@ public class Base {
     }
 
 }
-//git test
+//git test2
