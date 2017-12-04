@@ -1,2 +1,2 @@
 $ cat .gitignore
-* /.idea/*.iml
+/.idea/*.iml
