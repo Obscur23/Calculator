@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Obscur on 05.12.17.
  */
 public class ArrayCount {
-        void array(String[] args) {
+        void workarray() {
         Scanner in = new Scanner(System.in);
         System.out.println("How Much Words?");
         int len = in.nextInt();

@@ -61,11 +61,13 @@ public class Base {
                 System.out.println("Bye!");
                 break;
             case '2':
-
+                ArrayCount arrayclass = new ArrayCount();
+                arrayclass (workarray);
                 break;
         }
     }
-    }
+
+}
 
 
 //git test2
