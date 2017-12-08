@@ -13,7 +13,7 @@ public class Base {
         int choise = in.nextInt();
         //Инициализируем сканер
         switch (choise) {
-            case '1':
+            case 1 :
                 boolean cycle;
                 //Инициализируем переменную цикла повторений
                 do {
@@ -60,9 +60,9 @@ public class Base {
                 } while (cycle);
                 System.out.println("Bye!");
                 break;
-            case '2':
+            case 2 :
                 ArrayCount arrayclass = new ArrayCount();
-                arrayclass (workarray);
+                arrayclass.workarray();
                 break;
         }
     }
